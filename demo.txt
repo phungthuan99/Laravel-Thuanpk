@@ -1,0 +1,147 @@
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/Git-Laravel/.git/
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git remote add origin https://github.com/phungthuan99/Laravel-Thuanpk.git
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git remote -v
+origin  https://github.com/phungthuan99/Laravel-Thuanpk.git (fetch)
+origin  https://github.com/phungthuan99/Laravel-Thuanpk.git (push)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        as.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git add -A
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   as.txt
+
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git commit -m "abc-zxy"
+[master (root-commit) a45d14d] abc-zxy
+ 1 file changed, 2 insertions(+)
+ create mode 100644 as.txt
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git remote -v
+origin  https://github.com/phungthuan99/Laravel-Thuanpk.git (fetch)
+origin  https://github.com/phungthuan99/Laravel-Thuanpk.git (push)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git commit -m "Php Ads"
+On branch master
+nothing to commit, working tree clean
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git branch -M master
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git remote add origin https://github.com/phungthuan99/Laravel-Thuanpk.git
+fatal: remote origin already exists.
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git config user.name = "thuanphung99"
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git config --global credential.helper manager
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git config --global user.name"thuanphung99"
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git config --global user.email "thuanpkph09011@fpt.edu.vn"
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 235 bytes | 78.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/phungthuan99/Laravel-Thuanpk.git
+ * [new branch]      master -> master
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git branch
+* master
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ass.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git commit -m "Bai baa"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ass.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git push origin login
+error: src refspec login does not match any
+error: failed to push some refs to 'https://github.com/phungthuan99/Laravel-Thuanpk.git'
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ass.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$ git branch alpha
+
+T450s@DESKTOP-QPVRHCB MINGW64 /c/xampp/htdocs/Git-Laravel (master)
+$
